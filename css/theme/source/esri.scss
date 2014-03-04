@@ -147,6 +147,14 @@ body {
 }
 
 /*********************************************
+ * Type
+ *********************************************/
+
+ .reveal p, .reveal ul, .reveal ol {
+  margin: 1em 0;
+ }
+
+/*********************************************
  * SLIDES
  *********************************************/
 
@@ -196,15 +204,13 @@ body {
 .reveal h4 { font-size: 1em;  }
 
 /*********************************************
- * BLOCKQUOTES
+ * BLOCKQUOTE
  *********************************************/
 
- .reveal blockquote {
+.reveal blockquote {
   font-size: 1.55em;
-  padding: 1em;
-  margin-bottom: 1em;
-  line-height: 1.55em;
- }
+  line-height: 1.25em;
+}
 
 /*********************************************
  * LINKS
@@ -294,6 +300,7 @@ body {
 
 .reveal .progress {
   background: rgba(0,0,0,0.2);
+  height: 10px;
 }
   .reveal .progress span {
     background: $linkColor;
@@ -323,7 +330,8 @@ body {
   max-height: 100% !important;
 }
 
-pre {
+.reveal pre{
+  width: 100%;
   tab-size: 2;
 }
 

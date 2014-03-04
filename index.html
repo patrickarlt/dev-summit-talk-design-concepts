@@ -45,7 +45,7 @@
 			<div class="slides">
 
 				<section class="left">
-					<h1>Design &amp; UX Tips for Mapping Apps</h1>
+					<h1>Design &amp; UX Tips for Maps</h1>
 					<h3>Patrick Arlt</h3>
 					<p>Experiance Developer - Esri Portland R&D Center</p>
 					<p><a href="http://twitter.com/patrickarlt">@patrickarlt</a> - <a href="https://github.com/patrickarlt/dev-summit-talk-design-concepts">https://github.com/patrickarlt/dev-summit-talk-design-concepts</a></p>
@@ -61,34 +61,35 @@
 				</section>
 
 				<section>
-					<h2>So why do I still see this everywhere I look?</h2>
+					<h3>Lets find the&hellip; Oh f*@# it </h3>
 					<img src="portals.png" alt="Map Portal">
 				</section>
 
 				<section>
+					<h3>Map Portals&hellip; Not even once</h3>
 					<img src="noooooooo.jpg" alt="No Map Portals">
 				</section>
 
 				<section>
-					<h2>Not Just Map Portals</h2>
+					<h3>Not Just Map Portals</h3>
 					<img src="park-finder.png" alt="Portland Park Finder">
 				</section>
 
 				<section>
+					<h3>Lets go to the park&hellip; Not</h3>
 					<img src="park-finder-fail.png" alt="Portland Park Finder">
 				</section>
 
 				<section>
-					<h2>The UX of maps...</h2>
+					<h1>UX Guidelines For Maps</h1>
 				</section>
 
 				<section>
-					<h2>Some Real-World Metrics from Map Brief</h2>
-					<br>
+					<h2>Some Real-World Metrics</h2>
 					<ul>
-						<li><a href="http://mapbrief.com/2012/08/01/how-the-public-actually-uses-local-government-web-maps-metrics-from-denver/">http://mapbrief.com/2012/08/01/how-the-public-actually-uses-local-government-web-maps-metrics-from-denver/</a></li>
-						<li><a href="http://mapbrief.com/2013/03/15/your-online-map-is-missing-half-its-audience-more-revealing-web-analytics-from-the-field/">http://mapbrief.com/2013/03/15/your-online-map-is-missing-half-its-audience-more-revealing-web-analytics-from-the-field/</a></li>
-						<li><a href="http://mapbrief.com/2013/02/05/why-map-portals-dont-work-part-i/">http://mapbrief.com/2013/02/05/why-map-portals-dont-work-part-i/</a></li>
+						<li><a href="http://mapbrief.com/2012/08/01/how-the-public-actually-uses-local-government-web-maps-metrics-from-denver/">Web Map Metrics From the City of Denver</a></li>
+						<li><a href="http://mapbrief.com/2013/03/15/your-online-map-is-missing-half-its-audience-more-revealing-web-analytics-from-the-field/">More Web Analytics from the Field</a></li>
+						<li><a href="http://mapbrief.com/2013/02/05/why-map-portals-dont-work-part-i/">WHy Map Portals Don't Work Part 1 of 5</a></li>
 					</ul>
 				</section>
 
@@ -99,7 +100,7 @@
 
 				<section>
 					<blockquote>People Actually Interact with Balloon Content</blockquote>
-					<p class="fragment"><strong>Lession:</strong>Don't neglect your popups.</p>
+					<p class="fragment"><strong>Lession:</strong> Don't neglect your popups.</p>
 				</section>
 
 				<section>
@@ -119,19 +120,19 @@
 					<p class="fragment"><strong>Lession:</strong> Users care about a single feature.</p>
 				</section>
 
-				<section>
-					<h2>The UX of maps...</h2>
+				<section class="left">
+					<h2>UX Guidelines For Maps</h2>
 					<ul>
-						<li>Reduce noise</li>
-						<li>Let there be search</li>
-						<li>Pages for individual features</li>
-						<li>In and out at NASCAR speed</li>
-						<li>Focus on a single topic</li>
+						<li class="fragment">Reduce noise</li>
+						<li class="fragment">Let there be search</li>
+						<li class="fragment">Pages for individual features</li>
+						<li class="fragment">In and out at NASCAR speed</li>
+						<li class="fragment">Focus on a single topic</li>
 					</ul>
 				</section>
 
 				<section>
-					<h2>The Design of maps...</h2>
+					<h1>Design Guidelines For Maps</h1>
 				</section>
 
 				<section>
@@ -150,47 +151,65 @@
 				</section>
 
 				<section>
+					<h1>Learn How Much</h1>
+					<p>User Experience (UX) and User Interface (UI) Summit</p>
+					<p>1pm-6pm Wednesday</p>
+					<p>Santa Rosa/San Jacinto</p>
+				</section>
+
+				<section class="left">
 					<h1>Your design is CRAP!</h1>
-					<p class="fragment"><strong>C</strong>ontrast</p>
-					<p class="fragment"><strong>R</strong>epetition</p>
-					<p class="fragment"><strong>A</strong>rea</p>
-					<p class="fragment"><strong>P</strong>roximity</p>
 				</section>
 
 				<section>
 					<h2>C is for Contrast</h2>
+					<img src="contrast-1.png" alt="">
+				</section>
+
+				<section data-state="map-contrast">
+					<div id="map1" style="height: 45vh; background: white;"></div>
+					<div id="map2"  style="height: 45vh; background: #474749;"></div>
 				</section>
 
 				<section>
 					<h2>R is for Repetition</h2>
-				</section>
-
-				<section>
-					<h2>A is for Area</h2>
-				</section>
-
-				<section>
-					<h2>P is for Proximity</h2>
-				</section>
-
-				<section>
-					<h2>Remember Me?</h2>
-					<img src="park-finder-fail.png" alt="Portland Park Finder">
-				</section>
-
-				<section>
-					<h2>Lets Talk Tooling</h2>
+					<p>If its good enough to put on the page once its good enough to put on there again.</p>
 					<ul>
-						<li>Typeahead JS - <a href="http://twitter.github.io/typeahead.js/">http://twitter.github.io/typeahead.js/</a></li>
-						<li>Lunr JS - <a href="http://lunrjs.com/example/">http://lunrjs.com/example/</a></li>
-						<li>Riot JS - <a href="https://moot.it/riotjs/">https://moot.it/riotjs/</a></li>
-						<li>Dojo Router - <a href="http://dojotoolkit.org/reference-guide/1.9/dojo/router.html">http://dojotoolkit.org/reference-guide/1.9/dojo/router.html</a></li>
+						<li class="fragment">Show popups on hover AND click?</li>
+						<li class="fragment">Filter a map AND and a list?</li>
+						<li class="fragment">Introduce shortcuts and keyboard commands?</li>
 					</ul>
 				</section>
 
 				<section>
+					<h2>A is for Area</h2>
+					<p>Are the biggest things the most important?</p>
+					<img src="search-large.png" alt="">
+					<img src="search-small.png" alt="">
+				</section>
+
+				<section>
+					<h2>P is for Proximity</h2>
+					<p>How far apart are important elements? How long will it take a user to find them?</p>
+					<img src="proximity.png" alt="">
+				</section>
+
+				<section>
+					<h1>Design Is All About Balance</h1>
+				</section>
+
+				<section>
+					<h1>Perception<br>><br> Reality</h1>
+				</section>
+
+				<section>
+					<h3>Remember Me?</h3>
+					<img src="park-finder-fail.png" alt="Portland Park Finder">
+				</section>
+
+				<section>
 					<blockquote>But my boss wont give me time to design something!</blockquote>
-					<p>- You</p>
+					<p>- You<span class="fragment"> - Right Now</span></p>
 				</section>
 
 				<section class="left">
@@ -198,45 +217,38 @@
 						<h3>UX Fund</h3>
 					</header>
 					<p>In 2006 TeeHan+Lax invested $50,000 dollars in 10 companies they thought enbodied good design and UX.</p>
-					<br>
-					<p>One year later their investment matured 39.3%. Better then NASDAQ the S&amp;P 500 and the NYSE.</p>
-					<br>
+					<p>One year later their investment matured 39.3%. Better then NASDAQ, The S&amp;P 500, and the NYSE.</p>
 					<a href="http://www.teehanlax.com/blog/ux-fund-matures-up-393/">http://www.teehanlax.com/blog/ux-fund-matures-up-393/</a>
 				</section>
 
-				<section>
-					<h3>Design Matters - Learn More</h3>
-					<div class="block-group block-group-2-up">
-						<div class="block">
-							<h4>Tweeters</h4>
-							<ul>
-								<li><a href="http://twitter.com/russu">@russu</a></li>
-								<li><a href="http://twitter.com/uxtweets">@uxtweets</a></li>
-								<li><a href="http://twitter.com/jmspool">@jmspool</a></li>
-								<li><a href="http://twitter.com/ixda">@ixda</a></li>
-							</ul>
-						</div>
-						<div class="block">
-							<h4>Books</h4>
-							<ul>
-								<li><a href="http://www.amazon.com/Design-Hackers-Reverse-Engineering-Beauty/dp/1119998956/ref=cm_cmu_pg__header">Desing for Hackers</a></li>
-								<li><a href="http://www.amazon.com/Practical-Guide-Designing-Web-ebook/dp/B0058ZX0EU/ref=sr_1_420?s=books&ie=UTF8&qid=1393693677&sr=1-420&keywords=design+for+the+web">A Practical Guide to designing for the web</a></li>
-								<li><a href="http://www.amazon.com/Design-Everyday-Things-Donald-Norman/dp/0465067107">The Design of Everyday Things</a></li>
-								<li><a href="http://www.abookapart.com/">A Book Apart</a></li>
-							</ul>
-						</div>
-					</div>
+				<section class="left">
+					<h1>Keep Learning</h1>
+				</section>
+
+				<section class="left">
+					<h2>People on Twitter</h2>
+					<ul>
+						<li><a href="http://twitter.com/russu">@russu</a></li>
+						<li><a href="http://twitter.com/uxtweets">@uxtweets</a></li>
+						<li><a href="http://twitter.com/jmspool">@jmspool</a></li>
+						<li><a href="http://twitter.com/ixda">@ixda</a></li>
+					</ul>
+				</section>
+
+				<section class="left">
+					<h2>Books</h2>
+					<ul>
+						<li><a href="http://www.amazon.com/Design-Hackers-Reverse-Engineering-Beauty/dp/1119998956/ref=cm_cmu_pg__header">Design for Hackers</a></li>
+						<li><a href="http://www.amazon.com/Practical-Guide-Designing-Web-ebook/dp/B0058ZX0EU/ref=sr_1_420?s=books&ie=UTF8&qid=1393693677&sr=1-420&keywords=design+for+the+web">A Practical Guide to designing for the web</a></li>
+						<li><a href="http://www.amazon.com/Design-Everyday-Things-Donald-Norman/dp/0465067107">The Design of Everyday Things</a></li>
+						<li><a href="http://www.abookapart.com/">A Book Apart</a></li>
+					</ul>
 				</section>
 
 				<section class="left">
 					<h1>Thanks</h1>
-					<br>
 					<p>Twitter : <a href="http://twitter.com/patrickarlt">@patrickarlt</a></p>
-					<br>
-					<p>GitHub : <a href="http://github.com/patrickarlt">http://github.com/patrickarlt</a></p>
-					<br>
 					<p>Slides : <a href="https://github.com/patrickarlt/dev-summit-talk-design-concepts">https://github.com/patrickarlt/dev-summit-talk-design-concepts</a></p>
-					<br>
 					<div class="center-text">
 						<img src="esri-logo.png" alt="Esri" width="280" height="118" >
 					</div>
@@ -299,8 +311,18 @@
 				]
 			});
 
-			var map1 = L.map("map1").setView([51.505, -0.09], 13);
-			var tiles = L.esri.basemapLayer("Topographic").addTo(map1);
+
+
+			Reveal.addEventListener( 'map-contrast', function() {
+				setTimeout(function(){
+					var map1 = L.map("map1").setView([51.505, -0.09], 9);
+					L.esri.basemapLayer("DarkGray").addTo(map1);
+					L.esri.basemapLayer("DarkGrayLabels").addTo(map1);
+					var map2 = L.map("map2").setView([51.505, -0.09], 9);
+					L.esri.basemapLayer("DarkGray").addTo(map2);
+					L.esri.basemapLayer("DarkGrayLabels").addTo(map2);
+				}, 1000);
+			}, false );
 		</script>
 
 	</body>
